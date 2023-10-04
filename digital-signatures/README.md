@@ -1,13 +1,15 @@
 # Digital Signatures
 ## Overview
 This work aims to apply and evaluate NIST selected post-quantum algorithms for digital signatures made available by the [Open Quantum-Safe project](https://openquantumsafe.org/).
-The script `DS.py` allows a user to generate and validate a digital signature of a file (any format).
-
-`Digital_Signature-Timings.ipynb` can be used to calculate the times of signature and verification, for any of the available algorithms.
 
 The 2022 [NIST Post-Quantum Cryptography Standardization project](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization) algorithm selection:
 + Dilithium (excluding the *-AES* variants);
 + Falcon, and SPHINCS+ (excluding the "robust" variants).
+
+## Files Description
+`DS.py` script allows a user to generate and validate a digital signature of a file (any format).
+
+`Digital_Signature-Timings.ipynb` can be used to calculate the times of signature and verification, for any of the available algorithms.
 
 ## Suported Signature scheme algorithms
 The list below indicates an extensive list of all Digital Signature algorithms supported by [liboqs](https://openquantumsafe.org/liboqs/algorithms/). 
